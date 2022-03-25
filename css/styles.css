@@ -1,6 +1,63 @@
+:root{
+    --primery-text-color: #757575; 
+    --title-text-color: #212121;
+    --accent-color: #2196F3; 
+    --button-text-color: #ffffff;
+    --background-good-color: #2F303A;
+
+}
+
 body {
-    background-color:#ffffff;
-    color:#757575;
+    background-color:var(--button-text-color);
+    color:var(--title-text-color);
+    font-family: roboto;
+}
+.list {
+    list-style: none;
+}
+/*Logo*/
+.logo{
+    color: var(--title-text-color);
+}
+.logoweb{
+    color: var(--accent-color) ;
+}
+/*Link*/
+.site-nav a {
+   color: var(--title-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+.auth-nav a{
+    color: var(--primery-text-color);
+}
+.auth-nav a:hover,
+.auth-nav a:focus{
+    color: var(--accent-color);
+}
+/*Main*/
+.main{
+    background-color:var(--background-good-color) ;
+}
+.main-title{
+    color: var(--button-text-color);
+}
+.main-button{
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+}
+.main-button
+/*Section*/
+.section-title{
+    color:var(--title-text-color) ;
+}
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.feature-list p{
+    color:var(--primery-text-color);
 }
 :root
 --
