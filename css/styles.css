@@ -4,6 +4,7 @@
     --accent-color: #2196F3; 
     --button-text-color: #ffffff;
     --primery-bg--color: #2F303A;
+    --button-bg-color: #F5F4FA;
 
 }
 /*Стили для html*/
@@ -73,11 +74,19 @@ body {
 .feature-list .title{
     color: var(--title-text-color);
 }
-.feature-list p{
-    color:var(--primery-text-color);
+.section p{
+    color: var(--primery-text-color);
 }
-:root
---
+.secondary-button {
+    background-color: var(--button-bg-color);
+    color: var(--title-text-color);
+}
+.secondary-button:hover, 
+.secondary-button:focus{
+    background-color: #2196F3;
+    color: var(--button-text-color);
+    cursor: pointer;
+}
 
 
 
