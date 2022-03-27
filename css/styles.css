@@ -121,7 +121,6 @@ body {
 .section p{
     color: var(--primery-text-color);
     font-weight: 400;
- 
     line-height: 1.71;
 
     letter-spacing: 0.03em;
