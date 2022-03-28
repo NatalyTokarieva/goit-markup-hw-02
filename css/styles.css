@@ -13,6 +13,7 @@ body {
     color:var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     letter-spacing: 0.03em;
    
 }
@@ -23,7 +24,6 @@ body {
 }
 
 .header-page{
-    background-color: var(--button-text-color);
     font-weight: 500;
 
     line-height: 1.14;
@@ -87,18 +87,32 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
 }
+/*button*/
 
 .first-button{
     background-color: var(--accent-color);
     color: var(--button-text-color);
     cursor: pointer;
-     font-weight: 700;
-    font-size: 16px;
+    font-weight: 700;
     line-height: 1.85;
     letter-spacing: 0.06em;
    
     text-align: center;
  }
+
+ .secondary-button {
+    background-color: var(--button-bg-color);
+    color: var(--title-text-color);
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 1.62;
+}
+
+.secondary-button:hover, 
+.secondary-button:focus{
+    background-color: #2196F3;
+    color: var(--button-text-color);
+    cursor: pointer;}
 
 /*Section*/
 .section-title{
@@ -114,26 +128,23 @@ body {
     font-weight: 700;
   
     line-height: 1.14;
-    letter-spacing: 0.03em;
+   
 }
 
 .section p{
     color: var(--primery-text-color);
-    font-weight: 400;
+   
     line-height: 1.71;
-
-    letter-spacing: 0.03em;
 }
 
- .title-commands {
+ .title-commands{
     color: var(--title-text-color);
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 
-   letter-spacing: 0.03em;
-}
+ }
 
 .section-commands p{
     color: var(--primery-text-color);
@@ -142,24 +153,10 @@ body {
     font-size: 16px;
     line-height: 1.18;
 
-    letter-spacing: 0.03em;
-}
- 
-.secondary-button {
-    background-color: var(--button-bg-color);
-    color: var(--title-text-color);
-}
-
-.secondary-button:hover, 
-.secondary-button:focus{
-    background-color: #2196F3;
-    color: var(--button-text-color);
-    cursor: pointer;
 }
 
 .title-filter {
     color: var(--title-text-color);
-    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -171,10 +168,9 @@ body {
  .section-filter p {
     color: var(--primery-text-color);
        
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.88;
     text-decoration: none;
 
-    letter-spacing: 0.03em;
        }
