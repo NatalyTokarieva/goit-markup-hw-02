@@ -38,7 +38,7 @@ body {
     color: var(--accent-color) ;
 }
 
-.logo,.logoweb{
+.logo,.logoweb,.logo-footer{
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -46,6 +46,10 @@ body {
     
     text-decoration: none;
   }
+  .logo-footer,
+  .link-footer{
+      color: var(--button-text-color);}
+
 /*Link*/
 .site-nav .link {
     color:var(--title-text-color);
@@ -173,4 +177,7 @@ body {
     line-height: 1.88;
     text-decoration: none;
 
+       }
+       footer{
+           background-color: var(--primery-bg--color);
        }
