@@ -27,7 +27,6 @@ body {
 
 .header-page{
     font-weight: 500;
-
     line-height: 1.14;
     letter-spacing: 0.02em;}
 
@@ -48,9 +47,7 @@ body {
     
     text-decoration: none;
   }
-  .logo-footer,
-  .link-footer{
-      color: var(--button-text-color);}
+  
 
 /*Link*/
 .site-nav .link {
@@ -137,17 +134,16 @@ body {
     letter-spacing: 0.03em;
  }
 
-.feature-list.title{
-    color: var(--primery-text-color);
+.title{
     font-weight: 700;
-  
     line-height: 1.14;
-   
-}
+    font-size: 14px;
+   }
+ 
 
 .section p{
     color: var(--primery-text-color);
-   
+    text-decoration: none;
     line-height: 1.71;
 }
 
@@ -175,19 +171,24 @@ body {
     font-size: 18px;
     line-height: 2;
     text-decoration: none;
-
-    letter-spacing: 0.06em;
+   letter-spacing: 0.06em;
    }
    
  .section-filter p {
     color: var(--primery-text-color);
-       
-
     font-size: 16px;
     line-height: 1.88;
     text-decoration: none;
+   }
 
+ footer{
+    background-color: var(--primery-bg--color);
        }
-       footer{
-           background-color: var(--primery-bg--color);
-       }
+.logo-footer,
+.link-footer{
+     color: var(--button-text-color);
+    }
+.link-footer{
+         text-decoration: none;
+         font-style: normal;
+     }
