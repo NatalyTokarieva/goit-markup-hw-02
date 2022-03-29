@@ -15,6 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    font-style: normal;
     letter-spacing: 0.03em;
    
 }
@@ -98,20 +99,27 @@ body {
     background-color: var(--accent-color);
     color: var(--button-text-color);
     cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
     font-weight: 700;
+    font-size: 16px; ;
     line-height: 1.85;
     letter-spacing: 0.06em;
    
-    text-align: center;
  }
 
  .secondary-button {
     background-color: var(--button-bg-color);
+    border-color: var(--button-bg-color);
     color: var(--title-text-color);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
     font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.03em;
     line-height: 1.62;
-    border-color: var(--button-bg-color);
+ 
+
 }
 
 .secondary-button:hover, 
