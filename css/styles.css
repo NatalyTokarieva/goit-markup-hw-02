@@ -44,10 +44,8 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    
     text-decoration: none;
   }
-  
 
 /*Link*/
 .site-nav .link {
@@ -70,12 +68,7 @@ body {
     color: var(--accent-color);
 }
     
-.site-nav .link.current {
- color:var(--accent-color) ;
-    }
-
-
-    /*Main*/
+ /*Main*/
 .hero{
     background-color:var(--primery-bg--color); 
 }
@@ -86,7 +79,6 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-   
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -102,7 +94,6 @@ body {
     font-size: 16px; ;
     line-height: 1.85;
     letter-spacing: 0.06em;
-   
  }
 
  .secondary-button {
@@ -115,9 +106,7 @@ body {
     font-size: 16px;
     letter-spacing: 0.03em;
     line-height: 1.62;
- 
-
-}
+ }
 
 .secondary-button:hover, 
 .secondary-button:focus{
@@ -162,7 +151,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-
 }
 
 .title-filter {
@@ -172,23 +160,23 @@ body {
     line-height: 2;
     text-decoration: none;
    letter-spacing: 0.06em;
-   }
+ }
    
  .section-filter p {
     color: var(--primery-text-color);
     font-size: 16px;
     line-height: 1.88;
     text-decoration: none;
-   }
-
+ }
+/*Footer*/
  footer{
     background-color: var(--primery-bg--color);
-       }
+ }
 .logo-footer,
 .link-footer{
      color: var(--button-text-color);
-    }
+ }
 .link-footer{
-         text-decoration: none;
-         font-style: normal;
-     }
+     text-decoration: none;
+     font-style: normal;
+ }
