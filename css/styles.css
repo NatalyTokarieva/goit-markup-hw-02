@@ -13,8 +13,6 @@ body {
     background-color:var(--button-text-color);
     color:var(--title-text-color);
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     font-style: normal;
     letter-spacing: 0.03em;
    
@@ -28,7 +26,8 @@ body {
 .header-page{
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    }
 
 /*Logo*/
 
@@ -45,6 +44,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    cursor: default;
   }
 
 /*Link*/
@@ -67,6 +67,9 @@ body {
 .auth-nav .link:focus{
     color: var(--accent-color);
 }
+.header-page .current{
+    color: var(--accent-color);
+}
     
  /*Main*/
 .hero{
@@ -78,9 +81,10 @@ body {
     color: var(--button-text-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
+    line-height: 60PX;
     text-align: center;
     letter-spacing: 0.06em;
+   
 }
 /*button*/
 
@@ -120,20 +124,23 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
- }
+    }
 
 .title{
     font-weight: 700;
-    line-height: 1.14;
     font-size: 14px;
+    line-height: 16px;
    }
  
 
 .section p{
     color: var(--primery-text-color);
     text-decoration: none;
-    line-height: 1.71;
+    cursor: default;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
 }
 
  .title-commands{
@@ -160,6 +167,7 @@ body {
     line-height: 2;
     text-decoration: none;
    letter-spacing: 0.06em;
+   cursor: default;
  }
    
  .section-filter p {
@@ -167,6 +175,7 @@ body {
     font-size: 16px;
     line-height: 1.88;
     text-decoration: none;
+    cursor: default;
  }
 /*Footer*/
  footer{
@@ -179,4 +188,8 @@ body {
 .link-footer{
      text-decoration: none;
      font-style: normal;
+     cursor: default;
+ }
+ .link{
+     text-decoration: none;
  }
