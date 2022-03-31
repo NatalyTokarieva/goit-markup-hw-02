@@ -184,6 +184,10 @@ body {
      font-style: normal;
      cursor: default;
  }
+ .link-mail{
+     text-decoration: none;
+     cursor: default;
+ }
  .link{
      text-decoration: none;
  }
