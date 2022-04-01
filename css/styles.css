@@ -51,6 +51,7 @@ body {
 .site-nav .link {
     color:var(--title-text-color);
    text-decoration: none;
+   cursor: pointer;
  }
 
 .site-nav .link:hover,
@@ -61,11 +62,16 @@ body {
 .auth-nav .link{
     color: var(--primery-text-color);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus{
     color: var(--accent-color);
+}
+.auth-nav .link-footer{
+    text-decoration: none;
+    cursor: default;
 }
 .header-page .current{
     color: var(--accent-color);
@@ -81,9 +87,10 @@ body {
     color: var(--button-text-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60PX;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
    
 }
 /*button*/
@@ -129,13 +136,14 @@ body {
     font-weight: 700;
     line-height: 1.14 ;
     text-transform: uppercase;
+    font-size: 14px;
+
    }
  
 
 .section p{
     color: var(--primery-text-color);
     text-decoration: none;
-    cursor: default;
     line-height: 1.71;
 
 }
@@ -179,15 +187,22 @@ body {
 .link-footer{
      color: var(--button-text-color);
  }
-.link-footer{
+ 
+ .link-footer{
+     font-style: normal;
+ }
+.link-footer1{
      text-decoration: none;
      font-style: normal;
      cursor: default;
+     color: var(--primery-text-color);
  }
  .link-mail{
      text-decoration: none;
      cursor: default;
+     color: var(--primery-text-color);
+     font-style: normal;
  }
- .link{
-     text-decoration: none;
- }
+.link{
+    text-decoration: none;
+}
